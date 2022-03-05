@@ -1,6 +1,6 @@
 import { LightningElement } from 'lwc';
 const BASE_IMAGE_URL = 'https://sfdc-demo.s3-us-west-1.amazonaws.com/ecars';
-const COLORS = ['red','green','black','blue','white'];
+const COLORS = ['red','black','white'];
 export default class CarColorPicker extends LightningElement {
     colors = COLORS
     selectedColor = this.colors[0]
